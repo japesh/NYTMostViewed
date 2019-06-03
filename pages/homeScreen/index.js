@@ -2,6 +2,8 @@ import React from "react";
 import { View, Text, TouchableOpacity, ActivityIndicator, StyleSheet, FlatList } from "react-native";
 import Icon from 'react-native-vector-icons/FontAwesome';
 import reduxAPI from '../../components/reduxAPI';
+import config from '../../config';
+
 const keyExtractor = (item) => `${item.id}`;
 let HomeScreen = ({ isFetching, response, navigation }) => {
     let content;
@@ -36,7 +38,7 @@ let HomeScreen = ({ isFetching, response, navigation }) => {
         {content}
     </View>
 }
-HomeScreen = reduxAPI({ url: "http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/1.json?api-key=YhWtZFAEDdXf9VDXwSUa6G1nOUYttXJz", name: "most-viewed" })(HomeScreen)
+HomeScreen = reduxAPI({ url: `http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/1.json?api-key=${config["api-key"]}`, name: "most-viewed" })(HomeScreen)
 
 
 HomeScreen.navigationOptions = ({ navigation }) => (
