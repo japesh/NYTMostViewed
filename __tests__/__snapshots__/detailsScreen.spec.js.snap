@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail screen test case 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#454545",
+        "paddingBottom": 10,
+      }
+    }
+  >
+    my title
+  </Text>
+  <Text>
+    My abstract
+  </Text>
+</View>
+`;

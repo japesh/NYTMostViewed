@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home screen test case 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "overflow": "hidden",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#47e4c2"
+    hidesWhenStopped={true}
+    size="large"
+  />
+</View>
+`;
+
+exports[`home screen test case 2`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "overflow": "hidden",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#47e4c2"
+    hidesWhenStopped={true}
+    size="large"
+  />
+</View>
+`;
+
+exports[`home screen test case 3`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "overflow": "hidden",
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "abstract": "abstract 1",
+          "byline": "By DAVID D. KIRKPATRICK",
+          "id": 100000006527721,
+          "title": "My title 1",
+        },
+        Object {
+          "abstract": "abstract 2",
+          "byline": "By DAVID D. ",
+          "id": 100000006527722,
+          "title": "My title 2",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "padding": 15,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "#9a9a9a",
+                  "borderRadius": 15,
+                  "height": 30,
+                  "marginLeft": 15,
+                  "width": 30,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "stretch",
+                  "flex": 1,
+                  "marginLeft": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "#454545",
+                    "paddingBottom": 10,
+                  }
+                }
+              >
+                My title 1
+              </Text>
+              <Text
+                numberOfLines={2}
+              >
+                By DAVID D. KIRKPATRICK
+              </Text>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#727272",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "alignSelf": "center",
+                    "marginLeft": 20,
+                    "marginRight": 10,
+                  },
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "padding": 15,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "#9a9a9a",
+                  "borderRadius": 15,
+                  "height": 30,
+                  "marginLeft": 15,
+                  "width": 30,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "stretch",
+                  "flex": 1,
+                  "marginLeft": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "#454545",
+                    "paddingBottom": 10,
+                  }
+                }
+              >
+                My title 2
+              </Text>
+              <Text
+                numberOfLines={2}
+              >
+                By DAVID D. 
+              </Text>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#727272",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "alignSelf": "center",
+                    "marginLeft": 20,
+                    "marginRight": 10,
+                  },
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`home screen test case 4`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontSize": 20,
+        },
+        Object {
+          "paddingLeft": 10,
+        },
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
